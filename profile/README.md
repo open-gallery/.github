@@ -1,14 +1,35 @@
-## Hi there 👋
+## We!come 👋
 
 🙋‍♀️ Open gallary 프로젝트에 오신 것을 환영합니다.
 
-<!--
+---
 
-**Here are some ideas to get you started:**
+Open gallary 프로젝트는 다음과 같은 불편함을 개선하기 위해서 시작되었습니다.
 
-🙋‍♀️ A short introduction - Open gallary 프로젝트
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+- 내 스마트폰 갤러리에는 특정 아티스트의 사진을 저장하고 싶지 않다.
+- 갤러리가 지저분해지고 관리하기 어려워지는 것이 싫다.
+- 휴대폰을 바꿔도 갤러리가 보존되었으면 좋겠다.
+- 내가 좋아하는 아티스트의 사진만 쉽게 조회하고, 모아서 볼 수 있는 기능이 있으면 좋겠다.
+- 사람들과 아티스트의 사진을 쉽게 공유하고 싶다.
+
+UX/UI의 컨셉은 사진 조회에 최적화된 갤러리 형태입니다.
+장기적으로 팬들의 수요에 따라서 다양한 아티스트들을 지원할 예정이고 현재는 뉴진스만 지원할 예정입니다.
+
+---
+
+Open gallary의 핵심 기능은 다음과 같습니다.
+
+유저
+- 사진 업로드 요청 기능
+- 사진 조회 기능
+- 사진 태그 별 조회 기능
+- 사진 순위 조회 기능(좋아요 순위)
+
+어드민
+- 사진 승인, 삭제 기능
+- 밴 목록 관리 기능
+
+시스템
+- 카카오 간편 로그인 기능
+- 중복 사진 자동 제거 기능
+  - 승인 요청 시 중복 검사 실시
